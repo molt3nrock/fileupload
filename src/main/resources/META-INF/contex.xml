@@ -1,0 +1,16 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+  <Resource
+    auth="Container"
+    description="DB Connection"
+    name="jdbc/loginDB"
+    type="javax.sql.DataSource"
+    password=""
+    driverClassName="org.mariadb.jdbc.Driver"
+    maxIdle="2"
+    maxWait="5000"
+    username="root"
+    url="jdbc:mariadb://localhost:3306/taemu"
+    maxActive="4"/>
+</Context>
